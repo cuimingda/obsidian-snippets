@@ -1,11 +1,15 @@
 @media print {
-  .print-compact {
+  @page {
     size: A4 portrait;
+    margin: 10mm;
+  }
+
+  .print-compact {
     writing-mode: horizontal-tb;
     font-size: 7pt !important;
     font-weight: normal !important;
     color: black !important;
-    overflow: visible;
+    overflow: visible !important;
     margin: 0 !important;
     padding: 0 !important;
     line-height: 1.35 !important;
@@ -21,10 +25,10 @@
     line-height: 1.35 !important;
     color: black !important;
     text-decoration: none !important;
-    border: none !important;
     margin: 0 !important;
     padding: 0 !important;
     background: none !important;
+    box-shadow: none !important;
   }
 
   .print-compact p,
@@ -33,11 +37,6 @@
   .print-compact ol,
   .print-compact li {
     margin: 5pt 0 !important;
-  }
-
-  .print-compact h3 {
-    margin-top: 12pt !important;
-    margin-bottom: 5pt !important;
   }
 
   .print-compact h1 {
@@ -61,6 +60,8 @@
   .print-compact h3 {
     font-size: 9pt !important;
     font-weight: bold !important;
+    margin-top: 12pt !important;
+    margin-bottom: 5pt !important;
   }
 
   .print-compact ul,
@@ -83,6 +84,7 @@
   .print-compact td {
     box-sizing: border-box !important;
     border: 1px solid black !important;
+    border-collapse: collapse !important;
   }
 
   .print-compact blockquote {
