@@ -14,11 +14,19 @@
   .print-90,
   .print-85,
   .print-80,
+  .print-75,
+  .print-70,
+  .print-65,
+  .print-60,
   .print-100 *,
   .print-95 *,
   .print-90 *,
   .print-85 *,
-  .print-80 * {
+  .print-80 *,
+  .print-75 *,
+  .print-70 *,
+  .print-65 *,
+  .print-60 * {
     box-sizing: border-box !important;
     text-shadow: none !important;
     box-shadow: none !important;
@@ -31,7 +39,11 @@
   .print-95,
   .print-90,
   .print-85,
-  .print-80 {
+  .print-80,
+  .print-75,
+  .print-70,
+  .print-65,
+  .print-60 {
     color: #000 !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -48,7 +60,11 @@
   .print-95 a,
   .print-90 a,
   .print-85 a,
-  .print-80 a {
+  .print-80 a,
+  .print-75 a,
+  .print-70 a,
+  .print-65 a,
+  .print-60 a {
     color: #000 !important;
     text-decoration: none !important;
   }
@@ -59,7 +75,11 @@
   .print-95 hr,
   .print-90 hr,
   .print-85 hr,
-  .print-80 hr {
+  .print-80 hr,
+  .print-75 hr,
+  .print-70 hr,
+  .print-65 hr,
+  .print-60 hr {
     border: 0 !important;
     border-top: 1px solid #000 !important;
     margin: 0.75em 0 !important;
@@ -72,16 +92,28 @@
   .print-90 img,
   .print-85 img,
   .print-80 img,
+  .print-75 img,
+  .print-70 img,
+  .print-65 img,
+  .print-60 img,
   .print-100 svg,
   .print-95 svg,
   .print-90 svg,
   .print-85 svg,
   .print-80 svg,
+  .print-75 svg,
+  .print-70 svg,
+  .print-65 svg,
+  .print-60 svg,
   .print-100 canvas,
   .print-95 canvas,
   .print-90 canvas,
   .print-85 canvas,
-  .print-80 canvas {
+  .print-80 canvas,
+  .print-75 canvas,
+  .print-70 canvas,
+  .print-65 canvas,
+  .print-60 canvas {
     max-width: 100% !important;
     height: auto !important;
 
@@ -95,7 +127,11 @@
   .print-95 table,
   .print-90 table,
   .print-85 table,
-  .print-80 table {
+  .print-80 table,
+  .print-75 table,
+  .print-70 table,
+  .print-65 table,
+  .print-60 table {
     width: 100% !important;
     border-collapse: collapse !important;
     border-spacing: 0 !important;
@@ -109,11 +145,19 @@
   .print-90 th,
   .print-85 th,
   .print-80 th,
+  .print-75 th,
+  .print-70 th,
+  .print-65 th,
+  .print-60 th,
   .print-100 td,
   .print-95 td,
   .print-90 td,
   .print-85 td,
-  .print-80 td {
+  .print-80 td,
+  .print-75 td,
+  .print-70 td,
+  .print-65 td,
+  .print-60 td {
     vertical-align: top !important;
     word-break: break-word !important;
     overflow-wrap: anywhere !important;
@@ -126,11 +170,19 @@
   .print-90 pre,
   .print-85 pre,
   .print-80 pre,
+  .print-75 pre,
+  .print-70 pre,
+  .print-65 pre,
+  .print-60 pre,
   .print-100 code,
   .print-95 code,
   .print-90 code,
   .print-85 code,
-  .print-80 code {
+  .print-80 code,
+  .print-75 code,
+  .print-70 code,
+  .print-65 code,
+  .print-60 code {
     white-space: pre-wrap !important;
     word-break: break-word !important;
     overflow-wrap: anywhere !important;
@@ -143,26 +195,46 @@
   .print-90 pre,
   .print-85 pre,
   .print-80 pre,
+  .print-75 pre,
+  .print-70 pre,
+  .print-65 pre,
+  .print-60 pre,
   .print-100 blockquote,
   .print-95 blockquote,
   .print-90 blockquote,
   .print-85 blockquote,
   .print-80 blockquote,
+  .print-75 blockquote,
+  .print-70 blockquote,
+  .print-65 blockquote,
+  .print-60 blockquote,
   .print-100 table,
   .print-95 table,
   .print-90 table,
   .print-85 table,
   .print-80 table,
+  .print-75 table,
+  .print-70 table,
+  .print-65 table,
+  .print-60 table,
   .print-100 ul,
   .print-95 ul,
   .print-90 ul,
   .print-85 ul,
   .print-80 ul,
+  .print-75 ul,
+  .print-70 ul,
+  .print-65 ul,
+  .print-60 ul,
   .print-100 ol,
   .print-95 ol,
   .print-90 ol,
   .print-85 ol,
-  .print-80 ol {
+  .print-80 ol,
+  .print-75 ol,
+  .print-70 ol,
+  .print-65 ol,
+  .print-60 ol {
     break-inside: avoid !important;
     page-break-inside: avoid !important;
   }
@@ -174,31 +246,55 @@
   .print-90 h1,
   .print-85 h1,
   .print-80 h1,
+  .print-75 h1,
+  .print-70 h1,
+  .print-65 h1,
+  .print-60 h1,
   .print-100 h2,
   .print-95 h2,
   .print-90 h2,
   .print-85 h2,
   .print-80 h2,
+  .print-75 h2,
+  .print-70 h2,
+  .print-65 h2,
+  .print-60 h2,
   .print-100 h3,
   .print-95 h3,
   .print-90 h3,
   .print-85 h3,
   .print-80 h3,
+  .print-75 h3,
+  .print-70 h3,
+  .print-65 h3,
+  .print-60 h3,
   .print-100 h4,
   .print-95 h4,
   .print-90 h4,
   .print-85 h4,
   .print-80 h4,
+  .print-75 h4,
+  .print-70 h4,
+  .print-65 h4,
+  .print-60 h4,
   .print-100 h5,
   .print-95 h5,
   .print-90 h5,
   .print-85 h5,
   .print-80 h5,
+  .print-75 h5,
+  .print-70 h5,
+  .print-65 h5,
+  .print-60 h5,
   .print-100 h6,
   .print-95 h6,
   .print-90 h6,
   .print-85 h6,
-  .print-80 h6 {
+  .print-80 h6,
+  .print-75 h6,
+  .print-70 h6,
+  .print-65 h6,
+  .print-60 h6 {
     break-after: avoid !important;
     page-break-after: avoid !important;
     break-inside: avoid !important;
@@ -212,11 +308,19 @@
   .print-90 p,
   .print-85 p,
   .print-80 p,
+  .print-75 p,
+  .print-70 p,
+  .print-65 p,
+  .print-60 p,
   .print-100 li,
   .print-95 li,
   .print-90 li,
   .print-85 li,
-  .print-80 li {
+  .print-80 li,
+  .print-75 li,
+  .print-70 li,
+  .print-65 li,
+  .print-60 li {
     orphans: 2;
     widows: 2;
   }
@@ -243,6 +347,22 @@
 
   .print-80 {
     zoom: 0.80;
+  }
+
+  .print-75 {
+    zoom: 0.75;
+  }
+
+  .print-70 {
+    zoom: 0.70;
+  }
+
+  .print-65 {
+    zoom: 0.65;
+  }
+
+  .print-60 {
+    zoom: 0.60;
   }
 
 }
