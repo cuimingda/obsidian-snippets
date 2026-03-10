@@ -117,8 +117,8 @@
     max-width: 100% !important;
     height: auto !important;
 
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
   }
 
   /* tables */
@@ -136,8 +136,8 @@
     border-collapse: collapse !important;
     border-spacing: 0 !important;
 
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
   }
 
   .print-100 th,
@@ -188,7 +188,7 @@
     overflow-wrap: anywhere !important;
   }
 
-  /* prevent bad page breaks */
+  /* prefer compact pagination over keeping blocks together */
 
   .print-100 pre,
   .print-95 pre,
@@ -216,7 +216,13 @@
   .print-75 table,
   .print-70 table,
   .print-65 table,
-  .print-60 table,
+  .print-60 table {
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+  }
+
+  /* allow lists to continue on the next printed page */
+
   .print-100 ul,
   .print-95 ul,
   .print-90 ul,
@@ -235,8 +241,8 @@
   .print-70 ol,
   .print-65 ol,
   .print-60 ol {
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
   }
 
   /* headings */
@@ -297,8 +303,8 @@
   .print-60 h6 {
     break-after: avoid !important;
     page-break-after: avoid !important;
-    break-inside: avoid !important;
-    page-break-inside: avoid !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
   }
 
   /* widow / orphan control */
