@@ -245,6 +245,22 @@
     page-break-inside: auto !important;
   }
 
+  /* force quote rule to print in black */
+
+  .print-100 blockquote,
+  .print-95 blockquote,
+  .print-90 blockquote,
+  .print-85 blockquote,
+  .print-80 blockquote,
+  .print-75 blockquote,
+  .print-70 blockquote,
+  .print-65 blockquote,
+  .print-60 blockquote {
+    border-left-color: #000 !important;
+    border-inline-start-color: #000 !important;
+    color: #000 !important;
+  }
+
   /* headings */
 
   .print-100 h1,

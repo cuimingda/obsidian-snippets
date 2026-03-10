@@ -88,10 +88,11 @@
   }
 
   .print-compact blockquote {
-    border-left: 2px solid #888 !important;
+    border-left: 2px solid #000 !important;
+    border-inline-start: 2px solid #000 !important;
     margin: 8pt 0 8pt 1em !important;
     padding-left: 1em !important;
-    color: #444 !important;
+    color: #000 !important;
     background: none !important;
     font-style: italic !important;
   }
