@@ -1,0 +1,96 @@
+@media print {
+  .print-compact {
+    size: A4 portrait;
+    writing-mode: horizontal-tb;
+    font-size: 7pt !important;
+    font-weight: normal !important;
+    color: black !important;
+    overflow: visible;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.35 !important;
+    box-sizing: border-box !important;
+    column-count: 2 !important;
+    column-gap: 1em !important;
+    width: 100% !important;
+    background: none !important;
+  }
+
+  .print-compact * {
+    font-size: 7pt !important;
+    line-height: 1.35 !important;
+    color: black !important;
+    text-decoration: none !important;
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: none !important;
+  }
+
+  .print-compact p,
+  .print-compact h2,
+  .print-compact ul,
+  .print-compact ol,
+  .print-compact li {
+    margin: 5pt 0 !important;
+  }
+
+  .print-compact h3 {
+    margin-top: 12pt !important;
+    margin-bottom: 5pt !important;
+  }
+
+  .print-compact h1 {
+    font-size: 12pt !important;
+    font-weight: bold !important;
+    border-bottom: 1px solid black !important;
+    margin-bottom: 10pt !important;
+    column-span: all;
+  }
+
+  .print-compact h2 {
+    font-size: 10pt !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    margin: 8pt 0 !important;
+    padding-bottom: 2pt !important;
+    border-bottom: 1px dashed black !important;
+    column-span: all;
+  }
+
+  .print-compact h3 {
+    font-size: 9pt !important;
+    font-weight: bold !important;
+  }
+
+  .print-compact ul,
+  .print-compact ol {
+    margin-left: 1.5em !important;
+    padding-left: 1.5em !important;
+    list-style-position: outside !important;
+  }
+
+  .print-compact ul {
+    list-style-type: disc !important;
+  }
+
+  .print-compact ol {
+    list-style-type: decimal !important;
+  }
+
+  .print-compact table,
+  .print-compact th,
+  .print-compact td {
+    box-sizing: border-box !important;
+    border: 1px solid black !important;
+  }
+
+  .print-compact blockquote {
+    border-left: 2px solid #888 !important;
+    margin: 8pt 0 8pt 1em !important;
+    padding-left: 1em !important;
+    color: #444 !important;
+    background: none !important;
+    font-style: italic !important;
+  }
+}
